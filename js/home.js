@@ -11,7 +11,7 @@ const pintarProductos = (data) => {
                         </div> 
                         <div class="card-content">
                             <p>${producto.desc}</p>
-                            <p>${producto.precio}</p>
+                            <p>$ ${producto.precio}</p>
                         </div>`
       contenedor.appendChild(div);
     });
