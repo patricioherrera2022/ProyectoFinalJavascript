@@ -2529,19 +2529,19 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #212529;
-  background-color: #F195B2;
-  border-color: #F195B2;
+  background-color: #00ccff;
+  border-color: #ffffff;
 }
 
 .btn-primary:hover {
-  color: #212529;
-  background-color: #ed7399;
-  border-color: #eb6891;
+  color: #ffffff;
+  background-color: #000000;
+  border-color: #ffffff;
 }
 
 .btn-primary:focus, .btn-primary.focus {
   color: #212529;
-  background-color: #ed7399;
+  background-color: #00d9ff;
   border-color: #eb6891;
   box-shadow: 0 0 0 0.2rem rgba(210, 132, 157, 0.5);
 }
