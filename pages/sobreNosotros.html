@@ -27,8 +27,8 @@
 </head>
 
 <body>
-    <!-- Topbar Start -->
-    <div class="container-fluid bg-primary py-3 d-none d-md-block">
+     <!-- Topbar Start -->
+     <div class="container-fluid bg-primary py-3 d-none d-md-block">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
@@ -72,7 +72,7 @@
     <div class="container-fluid position-relative nav-bar p-0">
         <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
             <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
-                <a href="index.html" class="navbar-brand d-block d-lg-none">
+                <a href="../index.html" class="navbar-brand d-block d-lg-none">
                     <h1 class="m-0 display-4 text-primary"><span class="text-secondary">The</span> Proyect Argento</h1>
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -80,13 +80,13 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto py-0">
-                        <a href="index.html" class="nav-item nav-link ">Inicio</a>
-                        <a href="about.html" class="nav-item nav-link">Sobre Nosotros</a>
-                        <a href="product.html" class="nav-item nav-link">Servicios</a>
+                        <a href="../index.html" class="nav-item nav-link ">Inicio</a>
+                        <a href="sobreNosotros.html" class="nav-item nav-link">Sobre Nosotros</a>
+                        <a href="servicios.html" class="nav-item nav-link">Servicios</a>
                     </div>
                     <div class="navbar-nav mr-auto py-0">
-                        <a href="service.html" class="nav-item nav-link">Testimonios</a>
-                        <a href="contact.html" class="nav-item nav-link active">Contacto</a>
+                        <a href="testimonio.html" class="nav-item nav-link active">Testimonios</a>
+                        <a href="contacto.html" class="nav-item nav-link">Contacto</a>
                     </div>
                     <header>
                         <button id="cesta-carrito"><i class="fas fa-shopping-cart"></i><span id="contador-carrito">0</span></button>
@@ -95,65 +95,108 @@
             </nav>
         </div>    
     </div>
-    <!-- Navbar End -->
 
-
-    <!-- Header Start -->
     <div class="jumbotron jumbotron-fluid page-header" style="margin-bottom: 90px;">
         <div class="container text-center py-5">
-            <h1 class="text-white display-3 mt-lg-5">Cantacto</h1>
+            <h1 class="text-white display-3 mt-lg-5">Nosotros</h1>
             <div class="d-inline-flex align-items-center text-white">
                 <p class="m-0"><a class="text-white" href="">Inicio</a></p>
                 <i class="fa fa-circle px-3"></i>
-                <p class="m-0">Rellena el formulario y contanos tu idea</p>
+                <p class="m-0">Conocenos por nuestros objetivos <br> y por nuestros trabajos</p>
             </div>
         </div>
     </div>
-    <!-- Header End -->
 
-
-    <!-- Contact Start -->
+    <!-- Navbar End -->
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <h1 class="section-title position-relative text-center mb-5">Contactate con nosotross</h1>
+                <div class="col-lg-7">
+                    <h1 class="section-title position-relative text-center mb-5">Para la imaginación,<br>no hay limites Simplemente Creamos</h1>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-9">
-                    <div class="contact-form bg-light rounded p-5">
-                        <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                            <div class="form-row">
-                                <div class="col-sm-6 control-group">
-                                    <input type="text" class="form-control p-4" id="name" placeholder="Nombre" required="required" data-validation-required-message="Please enter your name" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="col-sm-6 control-group">
-                                    <input type="email" class="form-control p-4" id="email" placeholder="Ingrese su Email" required="required" data-validation-required-message="Please enter your email" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <input type="text" class="form-control p-4" id="subject" placeholder="Asunto" required="required" data-validation-required-message="Please enter a subject" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <textarea class="form-control p-4" rows="6" id="message" placeholder="Escriba aqui su idea..." required="required" data-validation-required-message="Please enter your message"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div>
-                                <button class="btn btn-primary btn-block py-3 px-5" type="submit" id="sendMessageButton">Enviar Mensaje</button>
-                            </div>
-                        </form>
+            <div class="row">
+                <div class="col-lg-4 py-5">
+                    <h4 class="font-weight-bold mb-3">Objetivos</h4>
+                    <h5 class="text-muted mb-3">Sobre Nosotros</h5>
+                    <p>The Proyect Argento es un espacio para romper con lo normal, lo estructurado y lo basico. Apuntamos a una constante modernización y un desarrollo permanente en todos los aspectos.
+                    <br>
+                    El proyecto nace de la idea, basicamente de crear, desde imagenes, videos hasta filtros de instagram. En donde nuestro equipo de trabajo esta en constantes capacitaciones.</p>
+                    <p></p>
+                </div>
+                <div class="col-lg-4" style="min-height: 400px;">
+                    <div class="position-relative h-100 rounded overflow-hidden">
+                        <video class="position-absolute w-100 h-100" src="./img/horarios de atención.mp4" autoplay muted loop style="object-fit: cover;">
                     </div>
+                </div>
+                <div class="col-lg-4 py-5">
+                    <p>Apuntamos a Emprendimientos o Marcas que estan saliendo al público y nescecitan herramientas para arrancar a lo grande.
+
+                        Creemos en que la base para un buen trabajo colectivo e individual es la comunicación constante tanto interna como externa. Es por eso que apuntamos a una comunicación o Feedback amena para con los clientes.
+                        Ahora... Es momento de actualizar tu marca o Emprendimientos. ¿Lo hacemos a lo grande?</p>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Contact End -->
 
+
+    <div class="container-fluid my-5 py-5 px-0">
+        <div class="row justify-content-center m-0">
+            <div class="col-lg-5">
+                <h1 class="section-title position-relative text-center mb-5">Te mostramos algo de lo que hacemos!</h1>
+            </div>
+        </div>
+        <div class="row m-0 portfolio-container">
+            <div class="col-lg-4 col-md-6 p-0 portfolio-item">
+                <div class="position-relative overflow-hidden">
+                    <video class="img-fluid w-100" src="img/conjunto dueña.mp4" autoplay muted alt="">
+                    <a class="portfolio-btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                        <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-0 portfolio-item">
+                <div class="position-relative overflow-hidden">
+                    <video class="img-fluid w-100" src="img/0225.mp4" autoplay muted alt="">
+                    <a class="portfolio-btn" href="img/portfolio-2.jpg" data-lightbox="portfolio">
+                        <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-0 portfolio-item">
+                <div class="position-relative overflow-hidden">
+                    <video class="img-fluid w-100" src="img/publi 3.mp4"loop autoplay muted alt="">
+                    <a class="portfolio-btn" href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                        <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-0 portfolio-item">
+                <div class="position-relative overflow-hidden">
+                    <video class="img-fluid w-100" src="img/1ra publicacion.mp4" autoplay muted loop alt="">
+                    <a class="portfolio-btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">
+                        <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-0 portfolio-item">
+                <div class="position-relative overflow-hidden">
+                    <video class="img-fluid w-100" src="img/1ra publicacion.mp4" autoplay loop muted alt="">
+                    <a class="portfolio-btn" href="img/portfolio-5.jpg" data-lightbox="portfolio">
+                        <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-0 portfolio-item">
+                <div class="position-relative overflow-hidden">
+                    <video class="img-fluid w-100" src="img/1ra publicacion.mp4" autoplay loop muted alt="">
+                    <a class="portfolio-btn" href="img/portfolio-6.jpg" data-lightbox="portfolio">
+                        <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer Start -->
     <div class="container-fluid footer bg-light py-5" style="margin-top: 90px;">
@@ -196,8 +239,6 @@
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-secondary px-2 back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
-
 
 
     <!-- JavaScript Libraries -->

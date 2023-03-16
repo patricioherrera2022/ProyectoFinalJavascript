@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>The Poyect Argento</title>
+    <title>iCREAM - Ice Cream Shop Website Template</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -27,8 +27,8 @@
 </head>
 
 <body>
-     <!-- Topbar Start -->
-     <div class="container-fluid bg-primary py-3 d-none d-md-block">
+       <!-- Topbar Start -->
+       <div class="container-fluid bg-primary py-3 d-none d-md-block">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
@@ -65,6 +65,7 @@
             <p class="tiempo"></p>
         </div>
     </div>
+
     <!-- Topbar End -->
 
 
@@ -72,7 +73,7 @@
     <div class="container-fluid position-relative nav-bar p-0">
         <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
             <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
-                <a href="index.html" class="navbar-brand d-block d-lg-none">
+                <a href="../index.html" class="navbar-brand d-block d-lg-none">
                     <h1 class="m-0 display-4 text-primary"><span class="text-secondary">The</span> Proyect Argento</h1>
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -80,13 +81,13 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto py-0">
-                        <a href="index.html" class="nav-item nav-link ">Inicio</a>
-                        <a href="about.html" class="nav-item nav-link">Sobre Nosotros</a>
-                        <a href="product.html" class="nav-item nav-link">Servicios</a>
+                        <a href="../index.html" class="nav-item nav-link ">Inicio</a>
+                        <a href="sobreNosotros.html" class="nav-item nav-link">Sobre Nosotros</a>
+                        <a href="servicios.html" class="nav-item nav-link">Servicios</a>
                     </div>
                     <div class="navbar-nav mr-auto py-0">
-                        <a href="service.html" class="nav-item nav-link active">Testimonios</a>
-                        <a href="contact.html" class="nav-item nav-link">Contacto</a>
+                        <a href="testimonio.html" class="nav-item nav-link active">Testimonios</a>
+                        <a href="contacto.html" class="nav-item nav-link">Contacto</a>
                     </div>
                     <header>
                         <button id="cesta-carrito"><i class="fas fa-shopping-cart"></i><span id="contador-carrito">0</span></button>
@@ -96,54 +97,45 @@
         </div>    
     </div>
     <!-- Navbar End -->
+
+
+    <!-- Header Start -->
     <div class="jumbotron jumbotron-fluid page-header" style="margin-bottom: 90px;">
         <div class="container text-center py-5">
-            <h1 class="text-white display-3 mt-lg-5">Nuestros Clientes</h1>
+            <h1 class="text-white display-3 mt-lg-5">Servicios</h1>
             <div class="d-inline-flex align-items-center text-white">
                 <p class="m-0"><a class="text-white" href="">Inicio</a></p>
                 <i class="fa fa-circle px-3"></i>
-                <p class="m-0">Cada cliente comparte una reseña sobre nuestros servicios</p>
+                <p class="m-0">-  Agregá al carrito el servicio que desees. <br>- Cabe aclarar que el precio es por mes.
+                </p>
             </div>
         </div>
     </div>
+    <!-- Header End -->
 
 
-    <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <h1 class="section-title position-relative text-center mb-5">Testimionio de nuestros clientes</h1>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="owl-carousel testimonial-carousel">
-                        <div class="text-center">
-                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <h4 class="font-weight-light mb-4">Nos encanto el trato que tuvieron para con nosotros, nos sentimos acompañados en todo momento con el equipo de diseño y cm.</h4>
-                            <img class="img-fluid mx-auto mb-3" src="img/1.png" alt="">
-                            <h5 class="font-weight-bold m-0">No Pain No Gain</h5>
-                            <span>Tienda deportiva, accesorios y sumplementos</span>
-                        </div>
-                        <div class="text-center">
-                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <h4 class="font-weight-light mb-4">Nos encanto la calidad de sus piezas gráficas y su atención en todo momento</h4>
-                            <img class="img-fluid mx-auto mb-3" src="img/2.png" alt="">
-                            <h5 class="font-weight-bold m-0">DES Indumentaria</h5>
-                            <span>Tienda deportiva</span>
-                        </div>
-                        <div class="text-center">
-                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <h4 class="font-weight-light mb-4">Nuestra página web quedo como lo soñabamos y ahora podemos relucir al maximo nuestro estudio Juridico</h4>
-                            <img class="img-fluid mx-auto mb-3" src="img/3.png" alt="">
-                            <h5 class="font-weight-bold m-0">Cliente</h5>
-                            <span>Estudio Juridico</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- Products Start -->
+
+    <main id="producto-contenedor">
+
+    </main>
+  
+    <div class="modal-contenedor">
+      <div class="modal-carrito">
+        <h3>Carrito</h3>
+        <button id="btn-cerrar-carrito"><i class="fas fa-times-circle"></i></button>
+        <div id="carrito-contenedor">
+          <p>Producto</p>
+          <p>Precio</p>
+          <p id=cantidad${producto.id}>Cantidad</p>
+          <button class="btn waves-effect waves-ligth boton-eliminar" value="">X</button>
         </div>
+        <p class="precioProducto">Precio total: $<span id="precioTotal"></span></p>
+      </div>
     </div>
+  
+    <!-- Products End -->
+
 
     <!-- Footer Start -->
     <div class="container-fluid footer bg-light py-5" style="margin-top: 90px;">
@@ -190,11 +182,12 @@
 
     <!-- JavaScript Libraries -->
     <script src="/data/stock.js"></script>
+    <script src="./js/reloj.js"></script>
     <script src="/js/modal.js"></script>
     <script src="/js/cart.js"></script>
     <script src="/js/home.js"></script>
     <script src="/js/index.js"></script>
-    <script src="./js/reloj.js"></script>
+    <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 </body>
