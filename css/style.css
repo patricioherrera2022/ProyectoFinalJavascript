@@ -8,6 +8,20 @@ header {
 
 
 
+/*RELOJ*/
+.reloj{
+  color: #ffffff;
+  align-content: center;
+  text-align: center;
+  text-shadow: 0 0 20px rgba(10,175, 230,1), 0 0 20px rgba(14, 176, 230, 0) ;
+}
+.tiempo{
+  letter-spacing: 0.05em;
+  font-size: 20px; 
+  padding: 5px 0;
+  text-align: center;
+}
+
 
  #cesta-carrito {
   border: none;
@@ -796,6 +810,14 @@ pre code {
   margin-left: -15px;
 }
 
+
+
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
