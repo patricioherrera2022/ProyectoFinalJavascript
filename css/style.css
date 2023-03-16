@@ -56,12 +56,23 @@ header {
 p {
   line-height: 1.8;
 }
+.text{
+  margin-top: 250px;
+  text-align: center;
+  font-weight: 100;
+  font-size : 50px;
+  color :#000000;
+  margin: 100px;
+}
 
 .card {
   max-width: 30%;
   padding: 10px;
   border-radius: 15px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  -webkit-box-shadow: -11px 43px 71px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: -11px 43px 71px -3px rgba(0,0,0,0.75);
+  box-shadow: -11px 43px 71px -3px rgba(0,0,0,0.75);
+  text-align: center
 }
 
 select {
@@ -10323,4 +10334,21 @@ h6,
   .footer .border-right {
     border-right: none !important;
   }
+}
+
+.botoncito{
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+  border-radius: 50%;
+  border: none;
+}
+
+.botoncito:hover{
+  transition: 1s ease-in-out;
+  background: #4F95DA;
 }
